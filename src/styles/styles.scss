@@ -1,0 +1,27 @@
+.home-page {
+	margin-left: 12px;
+}
+	.events {
+		display: flex;
+		flex-direction: column;
+		width: 700px;
+	}
+		.event-key {
+			display: flex;
+			justify-content: flex-start;
+			margin-bottom: 20px
+		}
+		.event-key div {
+			text-align: center;
+			max-width: 100px;
+			margin-right: 12px;
+		}
+		.event {
+			background-color: white;
+		}
+		.recent {
+			background-color: paleGoldenrod
+		}
+		.upcoming {
+			background-color: paleGreen
+		}
